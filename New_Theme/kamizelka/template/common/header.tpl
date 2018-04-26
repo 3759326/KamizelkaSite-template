@@ -23,7 +23,9 @@
 
 
 <!-- Begin Google fonts  -->
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,600,700&subset=cyrillic');
+</style>
 <!-- End Google fonts (Oswald & Open Sans) -->
 
 

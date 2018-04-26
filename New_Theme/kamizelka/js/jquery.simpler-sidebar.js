@@ -269,7 +269,8 @@
 				right: 0,
 				bottom: 0,
 				left: 0,
-				// zIndex: cfg.zIndex - 1,
+				//zIndex: cfg.zIndex - 1,
+				zIndex: "50",
 				display: "none"
 			};
 
