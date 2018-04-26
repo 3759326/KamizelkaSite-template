@@ -39,10 +39,16 @@
           
               					<?php if ($product['price']) { ?>
                     		<div class="category-price">
-          	            	<?php if (!$product['special']) { ?>
-          	            	<?php echo $product['price']; ?>
-          		            <?php } else { ?>
-          		              <span class="category-price-old"><?php echo $product['price']; ?></span> <span class="category-price-new"><?php echo $product['special']; ?></span>
+							  <?php if (!$product['special']) { ?>
+								<div class="price-tag">
+							  		<?php echo $product['price']; ?>
+							  	</div>
+							  <?php } else { ?>
+								
+									<span class="category-price-old"><?php echo $product['price']; ?></span>
+									<div class="price-tag">
+										 <span class="category-price-new"><?php echo $product['special']; ?></span>
+							 	 	</div>
           		                <div class="ribbon-sale"></div>
           	                	  <?php } ?>
                               	</div>
