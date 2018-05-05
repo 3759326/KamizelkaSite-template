@@ -1,0 +1,32 @@
+<modification>
+    <id>Store Logo On Invoice - VQMod</id>
+    <version>1.1</version>
+    <vqmver>1.2.3</vqmver>
+    <author><![CDATA[<a onClick="window.open('http://sontechs.com');" title="Sontechs.com">Sontechs.com</a>]]></author>
+		<file name="admin/controller/sale/order.php">
+		<operation>
+			<search position="before"><![CDATA[
+			$this->language->load('sale/order');
+			]]></search>
+			<add><![CDATA[
+        if ($this->config->get('config_logo') && file_exists(DIR_IMAGE . $this->config->get('config_logo'))) {
+            $this->data['logo'] = HTTP_IMAGE . $this->config->get('config_logo');
+        } else {
+            $this->data['logo'] = '';
+        }
+			]]></add>
+		</operation>
+		</file>
+		<file name="admin/view/template/sale/order_invoice.tpl">
+		<operation>
+			<search position="before"><![CDATA[
+			<h1><?php echo $text_invoice; ?></h1>
+			]]></search>
+			<add><![CDATA[
+			<?php if (!empty($logo)): ?>
+			<img src="<?php echo $logo; ?>" width="300" style="padding-left: 30px;" />
+			<?php endif; ?>
+			]]></add>
+		</operation>
+		</file>
+</modification>

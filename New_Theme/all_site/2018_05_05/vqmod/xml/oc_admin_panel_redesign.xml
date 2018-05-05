@@ -1,0 +1,325 @@
+<modification>
+
+  <id>Admin Panel Redesign 1.5.x Blue</id>
+  <version>1.1</version>
+  <vqmver>2.7.1</vqmver>
+  <author>justcurious based on a design by immortality</author>
+
+  <file name="admin/language/*/common/home.php">
+     <operation>
+         <search position="after">
+			<![CDATA[
+$_['text_customer']
+			]]></search>
+			
+         <add><![CDATA[
+$_['text_product']                 	= 'Products';
+$_['text_category']                 = 'Categories';
+$_['text_manufacturer']             = 'Manufacturers';
+$_['text_banner']                 	= 'Banners';
+$_['text_seo']                 		= 'SEO URLs';
+$_['text_module']                 	= 'Modules';
+$_['text_shipping']                 = 'Shipping';
+$_['text_payment']                 	= 'Payment';
+$_['text_information']              = 'Info Pages';
+$_['text_order']                 	= 'Orders';
+$_['text_customer']                 = 'Customers';
+$_['text_coupon']                 	= 'Coupons';
+$_['text_review']                 	= 'Reviews';
+$_['text_settings']                 = 'Shop Settings';
+$_['text_mailshots']               	= 'Mailshots';
+$_['text_backup']                 	= 'Backup / Restore';
+$_['text_help']                 	= 'Support';
+$_['text_special']                 	= 'Sale Items';
+$_['text_featured']                 = 'Featured Items';
+$_['text_options']                 	= 'Manage Options';
+$_['text_vouchers']                 = 'Gift Vouchers';
+$_['text_attributes']              = 'Attributes';
+
+        ]]></add>
+     </operation>
+  </file>
+
+  <file name="admin/controller/common/home.php">
+     <operation>
+         <search position="after">
+			<![CDATA[
+		$this->data['column_action'] = $this->language->get('column_action');
+			]]></search>
+			
+         <add><![CDATA[
+		$this->data['text_product'] = $this->language->get('text_product');
+		$this->data['text_category'] = $this->language->get('text_category');
+		$this->data['text_manufacturer'] = $this->language->get('text_manufacturer');
+		$this->data['text_banner'] = $this->language->get('text_banner');
+		$this->data['text_seo'] = $this->language->get('text_seo');
+		$this->data['text_module'] = $this->language->get('text_module');
+		$this->data['text_shipping'] = $this->language->get('text_shipping');
+		$this->data['text_payment'] = $this->language->get('text_payment');
+		$this->data['text_information'] = $this->language->get('text_information');
+		$this->data['text_order'] = $this->language->get('text_order');
+		$this->data['text_customer'] = $this->language->get('text_customer');
+		$this->data['text_coupon'] = $this->language->get('text_coupon');
+		$this->data['text_review'] = $this->language->get('text_review');
+		$this->data['text_settings'] = $this->language->get('text_settings');
+		$this->data['text_mailshots'] = $this->language->get('text_mailshots');
+		$this->data['text_backup'] = $this->language->get('text_backup');
+		$this->data['text_help'] = $this->language->get('text_help');
+		$this->data['text_special'] = $this->language->get('text_special');
+		$this->data['text_featured'] = $this->language->get('text_featured');
+		$this->data['text_options'] = $this->language->get('text_options');
+		$this->data['text_vouchers'] = $this->language->get('text_vouchers');
+		$this->data['text_attributes'] = $this->language->get('text_attributes');
+
+			$this->data['backup'] = HTTPS_SERVER . 'index.php?route=tool/backup&token=' . $this->session->data['token'];
+			$this->data['category'] = HTTPS_SERVER . 'index.php?route=catalog/category&token=' . $this->session->data['token'];
+			$this->data['country'] = HTTPS_SERVER . 'index.php?route=localisation/country&token=' . $this->session->data['token'];
+			$this->data['currency'] = HTTPS_SERVER . 'index.php?route=localisation/currency&token=' . $this->session->data['token'];
+			$this->data['coupon'] = HTTPS_SERVER . 'index.php?route=sale/coupon&token=' . $this->session->data['token'];
+			$this->data['customer'] = HTTPS_SERVER . 'index.php?route=sale/customer&token=' . $this->session->data['token'];
+			$this->data['customer_group'] = HTTPS_SERVER . 'index.php?route=sale/customer_group&token=' . $this->session->data['token'];
+			$this->data['download'] = HTTPS_SERVER . 'index.php?route=catalog/download&token=' . $this->session->data['token'];
+			$this->data['error_log'] = HTTPS_SERVER . 'index.php?route=tool/error_log&token=' . $this->session->data['token'];
+			$this->data['feed'] = HTTPS_SERVER . 'index.php?route=extension/feed&token=' . $this->session->data['token'];
+			
+			$this->data['geo_zone'] = HTTPS_SERVER . 'index.php?route=localisation/geo_zone&token=' . $this->session->data['token'];
+			$this->data['information'] = HTTPS_SERVER . 'index.php?route=catalog/information&token=' . $this->session->data['token'];
+			$this->data['language'] = HTTPS_SERVER . 'index.php?route=localisation/language&token=' . $this->session->data['token'];
+			$this->data['logout'] = HTTPS_SERVER . 'index.php?route=common/logout&token=' . $this->session->data['token'];
+			$this->data['contact'] = HTTPS_SERVER . 'index.php?route=sale/contact&token=' . $this->session->data['token'];
+			$this->data['manufacturer'] = HTTPS_SERVER . 'index.php?route=catalog/manufacturer&token=' . $this->session->data['token'];
+			$this->data['mailshots'] = HTTPS_SERVER . 'index.php?route=sale/contact&token=' . $this->session->data['token'];
+			$this->data['banner'] = HTTPS_SERVER . 'index.php?route=design/banner&token=' . $this->session->data['token'];
+			$this->data['module'] = HTTPS_SERVER . 'index.php?route=extension/module&token=' . $this->session->data['token'];
+			$this->data['order'] = HTTPS_SERVER . 'index.php?route=sale/order&token=' . $this->session->data['token'];
+			$this->data['order_status'] = HTTPS_SERVER . 'index.php?route=localisation/order_status&token=' . $this->session->data['token'];
+			$this->data['payment'] = HTTPS_SERVER . 'index.php?route=extension/payment&token=' . $this->session->data['token'];
+			$this->data['product'] = HTTPS_SERVER . 'index.php?route=catalog/product&token=' . $this->session->data['token'];
+			$this->data['report_purchased'] = HTTPS_SERVER . 'index.php?route=report/purchased&token=' . $this->session->data['token'];
+			$this->data['report_sale'] = HTTPS_SERVER . 'index.php?route=report/sale&token=' . $this->session->data['token'];
+			$this->data['report_viewed'] = HTTPS_SERVER . 'index.php?route=report/viewed&token=' . $this->session->data['token'];
+			$this->data['review'] = HTTPS_SERVER . 'index.php?route=catalog/review&token=' . $this->session->data['token'];
+			$this->data['seo'] = HTTPS_SERVER . 'index.php?route=module/deadcow_seo&token=' . $this->session->data['token'];
+			$this->data['shipping'] = HTTPS_SERVER . 'index.php?route=extension/shipping&token=' . $this->session->data['token'];
+			$this->data['setting'] = HTTPS_SERVER . 'index.php?route=setting/setting&token=' . $this->session->data['token'];
+			$this->data['settings'] = HTTPS_SERVER . 'index.php?route=setting/setting&token=' . $this->session->data['token'];
+			$this->data['store'] = HTTP_CATALOG;
+			$this->data['stock_status'] = HTTPS_SERVER . 'index.php?route=localisation/stock_status&token=' . $this->session->data['token'];
+			$this->data['tax_class'] = HTTPS_SERVER . 'index.php?route=localisation/tax_class&token=' . $this->session->data['token'];
+			$this->data['total'] = HTTPS_SERVER . 'index.php?route=extension/total&token=' . $this->session->data['token'];
+			$this->data['user'] = HTTPS_SERVER . 'index.php?route=user/user&token=' . $this->session->data['token'];
+			$this->data['user_group'] = HTTPS_SERVER . 'index.php?route=user/user_permission&token=' . $this->session->data['token'];
+			$this->data['weight_class'] = HTTPS_SERVER . 'index.php?route=localisation/weight_class&token=' . $this->session->data['token'];
+			$this->data['length_class'] = HTTPS_SERVER . 'index.php?route=localisation/length_class&token=' . $this->session->data['token'];
+			$this->data['zone'] = HTTPS_SERVER . 'index.php?route=localisation/zone&token=' . $this->session->data['token'];
+			$this->data['featured'] = HTTPS_SERVER . 'index.php?route=module/featured&token=' . $this->session->data['token'];
+			$this->data['special2'] = HTTPS_SERVER . 'index.php?route=module/special&token=' . $this->session->data['token'];
+			$this->data['options2'] = HTTPS_SERVER . 'index.php?route=catalog/option&token=' . $this->session->data['token'];
+			$this->data['vouchers'] = HTTPS_SERVER . 'index.php?route=sale/voucher_theme&token=' . $this->session->data['token'];
+			$this->data['attributes'] = HTTPS_SERVER . 'index.php?route=catalog/attribute&token=' . $this->session->data['token'];
+			$this->data['help'] = 'http://www.opencart.com';
+
+        ]]></add>
+     </operation>
+ </file>
+
+  <file name="admin/view/template/common/home.tpl">
+     <operation>
+         <search position="after">
+			<![CDATA[
+      <div class="content">
+			]]></search>
+			
+         <add><![CDATA[
+	<!START OF ICONS -->
+		<div class="leftside">
+			<div class="homebox">
+			<ul id="icons">
+				<li>
+					<a href="<?php echo $product; ?>">
+						<img src="view/image/icons/product.png">
+						<h6><?php echo $text_product; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $category; ?>">
+						<img src="view/image/icons/category.png">
+						<h6><?php echo $text_category; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $manufacturer; ?>">
+						<img src="view/image/icons/manufacturer.png">
+						<h6><?php echo $text_manufacturer; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $banner; ?>">
+						<img src="view/image/icons/banner.png">
+						<h6><?php echo $text_banner; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $attributes; ?>">
+						<img src="view/image/icons/attributes.png">
+						<h6><?php echo $text_attributes; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $featured; ?>">
+						<img src="view/image/icons/featured.png">
+						<h6><?php echo $text_featured; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $options2; ?>">
+						<img src="view/image/icons/options.png">
+						<h6><?php echo $text_options; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $vouchers; ?>">
+						<img src="view/image/icons/voucher.png">
+						<h6><?php echo $text_vouchers; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $module; ?>">
+						<img src="view/image/icons/module.png">
+						<h6><?php echo $text_module; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $shipping; ?>">
+						<img src="view/image/icons/shipping.png">
+						<h6><?php echo $text_shipping; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $payment; ?>">
+						<img src="view/image/icons/payment.png">
+						<h6><?php echo $text_payment; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $information; ?>">
+						<img src="view/image/icons/info.png">
+						<h6><?php echo $text_information; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $order; ?>">
+						<img src="view/image/icons/order.png">
+						<h6><?php echo $text_order; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $customer; ?>">
+						<img src="view/image/icons/clients.png">
+						<h6><?php echo $text_customer; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $coupon; ?>">
+						<img src="view/image/icons/coupon.png">
+						<h6><?php echo $text_coupon; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $review; ?>">
+						<img src="view/image/icons/comment.png">
+						<h6><?php echo $text_review; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $settings; ?>">
+						<img src="view/image/icons/settings.png">
+						<h6><?php echo $text_settings; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $mailshots; ?>">
+						<img src="view/image/icons/mailshots.png">
+						<h6><?php echo $text_mailshots; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo $backup; ?>">
+						<img src="view/image/icons/backup.png">
+						<h6><?php echo $text_backup; ?></h6>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="<?php echo $help; ?>">
+						<img src="view/image/icons/help.png">
+						<h6><?php echo $text_help; ?></h6>
+					</a>
+				</li>
+			</ul>
+			</div>
+			
+		</div>
+	
+		<div class="rightside">
+		
+		<!-- END OF ICONS -->
+
+        ]]></add>
+     </operation>
+
+
+     <operation>
+         <search position="replace" offset="13">
+			<![CDATA[
+      <div class="statistic">
+			]]></search>
+			
+         <add><![CDATA[
+        ]]></add>
+     </operation>
+
+     <operation>
+         <search position="after" offset="6">
+			<![CDATA[
+                <td class="center" colspan="6"><?php echo $text_no_results; ?></td>
+			]]></search>
+			
+         <add><![CDATA[
+			<div class="latest">
+				<div class="dashboard-heading">
+					<div style="width: 100%; display: inline-block;">
+						<div style="float: left; font-size: 14px; font-weight: bold; padding: 5px 0px 0px 5px; line-height: 12px;"><?php echo $text_statistics; ?></div>
+						<div style="float: right; font-size: 12px;"><?php echo $entry_range; ?>
+							<select id="range" onchange="getSalesChart(this.value)" style="margin: 2px 3px 0 0;">
+								<option value="day"><?php echo $text_day; ?></option>
+								<option value="week"><?php echo $text_week; ?></option>
+								<option value="month"><?php echo $text_month; ?></option>
+								<option value="year"><?php echo $text_year; ?></option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="inside">
+					<div id="report" style="width: 400px; height: 180px; margin: auto;"></div>
+				</div>
+			</div>
+			
+        ]]></add>
+     </operation>
+
+  </file>
+
+  <file name="admin/view/template/common/header.tpl">
+     <operation>
+         <search position="after">
+			<![CDATA[
+<link rel="stylesheet" type="text/css" href="view/stylesheet/stylesheet.css" />
+			]]></search>
+			
+         <add><![CDATA[
+<link rel="stylesheet" type="text/css" href="view/stylesheet/admin_panel_redesign.css" />
+        ]]></add>
+     </operation>
+	 </file>
+	 
+</modification>

@@ -1,0 +1,38 @@
+<modification>
+
+	<id>No Coupon applied if product on special 1.4.x and 1.5.x</id>
+	<version>151.1</version>
+	<vqmver>1.0.8</vqmver>
+	<author>qphoria</author>
+
+	<file name="catalog/model/total/coupon.php">
+        <operation>
+            <search position="after"><![CDATA[
+            $this->load->model('checkout/coupon');
+            ]]></search>
+            <add><![CDATA[
+			$this->load->model('catalog/product');
+			]]></add>
+        </operation>
+
+		<operation>
+            <search position="before"><![CDATA[
+            if ($status) {
+            ]]></search>
+            <add><![CDATA[
+			// Q: Don't discount if product is on special
+			if (method_exists($this->document, 'addBreadcrumb')) { //1.4.x
+				if ($this->model_catalog_product->getProductSpecial($product['product_id'])) {
+					continue;
+				}
+			} else { //v15x
+				$results = $this->model_catalog_product->getProduct($product['product_id']);
+				if ($results['special']) {
+					continue;
+				}
+			}
+			]]></add>
+        </operation>
+	</file>
+
+</modification>

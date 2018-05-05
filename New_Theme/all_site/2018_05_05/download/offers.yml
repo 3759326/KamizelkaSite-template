@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2015-11-08 12:47">
+<shop>
+<name></name>
+<company></company>
+<url>http://mag-zigzag.ml/</url>
+<phone>+38(067)635-5080</phone>
+<platform>ocStore</platform>
+<version>1.5.6.4</version>
+<currencies>
+<currency id="UAH" rate="1" />
+</currencies>
+<categories>
+<category id="24" >
+СОРОЧКИ, БЛУЗИ, ТУНІКИ</category>
+<category id="57" >
+БОДІ, СОРОЧКИ-БОДІ</category>
+<category id="59" >
+СПІДНИЦІ, СУКНІ</category>
+<category id="60" >
+КАМІЗЕЛЬКИ</category>
+<category id="62" >
+КОРСЕТИ</category>
+<category id="63" >
+АКСЕСУАРИ</category>
+<category id="64" >
+ТОВАР зі знижкою</category>
+</categories>
+<offers>
+<offer id="41" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-01.html</url>
+<price>420.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Studio-Session-170.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-01)</name>
+<vendor></vendor>
+<vendorCode>БОДІ Б-01</vendorCode>
+<description>Класична біла сорочка боді з довгим рукавом . Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Боді по довжині регулюється еластичною вставкою&amp;nbsp; на гачках.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="42" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-05.html</url>
+<price>470.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/270-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-05)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-05</vendorCode>
+<description>Сорочка боді чорного кольору з білими коміром та манжетами. Стійка коміра, внутрішня планка та планка на рукаві виконані з тканини з чорно-білим принтом. Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Боді по довжині регулюється еластичною вставкою&amp;nbsp; на гачках.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="46" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-04.html</url>
+<price>470.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/269-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-04)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-04</vendorCode>
+<description>Сорочка боді рожевого&amp;nbsp; кольору&amp;nbsp; з чорними коміром, внутрішньою планкою, манжетами та&amp;nbsp; ґудзиками. Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Боді по довжині регулюється еластичною вставкою&amp;nbsp; на гачках.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="47" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-03.html</url>
+<price>470.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/134-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-03)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-03</vendorCode>
+<description>Сорочка боді білого кольору&amp;nbsp; з чорними коміром, планкою та манжетами. Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. Боді по довжині регулюється еластичною вставкою&amp;nbsp; на гачках. &amp;nbsp;
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="49" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-02.html</url>
+<price>435.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/Studio-Session-040.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-02)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-02</vendorCode>
+<description>Класична чорна сорочка боді з довгим рукавом. Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Боді по довжині регулюється еластичною вставкою&amp;nbsp; на гачках.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="51" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-06.html</url>
+<price>470.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/354-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-06)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-06</vendorCode>
+<description>Сорочка боді сірого кольору. Стійка коміра, внутрішня планка та планка на рукаві виконані з тканини з сіро-синім принтом. Від лінії плеча по переду і спинці проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Боді по довжині регулюється еластичною вставкою&amp;nbsp; на гачках.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="54" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-08.html</url>
+<price>470.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/364-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-08)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-08</vendorCode>
+<description>Сорочка боді темно-синя з білими коміром та манжетами. Стійка коміра, внутрішня планка та планка на рукаві виконані з тканини з біло-синім принтом. &amp;nbsp;Від лінії плеча по переду і спинці проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Боді по довжині регулюється еластичною вставкою&amp;nbsp; на гачках.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="55" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-09.html</url>
+<price>455.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/280-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-09)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-09</vendorCode>
+<description>Сорочка боді білого кольору . Стійка коміра, внутрішня планка та планка на рукаві чорного кольору. Комір та манжети виконані з тканини з чорно-білим принтом. Від лінії плеча по переду і спинці проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Боді по довжині регулюється еластичною вставкою&amp;nbsp; на гачках.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="58" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-bt-12.html</url>
+<price>450.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/253-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (БТ-12)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ БТ-12</vendorCode>
+<description>Боді білого кольору з коміром стійкою. Перед виготовлений з мережева з підкладкою білого кольору та з імітацією застібки. Спинка трикотажна з застібкою на стійці. Рукав короткий. Малюнок мережива може змінюватися.
+
+Склад : віскоза з додаванням еластину</description>
+</offer>
+<offer id="59" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-01.html</url>
+<price>395.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/061-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-01)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-01</vendorCode>
+<description>Класична сорочка чорного кольору&amp;nbsp; з довгим рукавом .Від лінії плеча по переду і спинці проходять рельєфні шви, що створюють приталений силует. Сорочка з фігурним низом, що дозволяє носити її навипуск.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="61" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-02.html</url>
+<price>385.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/174-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-02)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-02</vendorCode>
+<description>Класична сорочка білого кольору&amp;nbsp; з довгим рукавом . Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Сорочка з фігурним низом, що дозволяє носити її навипуск.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="71" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-03.html</url>
+<price>395.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/144-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-03)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-03</vendorCode>
+<description>Сорочка білого кольору з довгим рукавом , чорними коміром, планкою та манжетами. Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Сорочка з фігурним низом, що дозволяє носити її навипуск.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="72" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-04.html</url>
+<price>405.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/214-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-04)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-04</vendorCode>
+<description>Сорочка білого кольору&amp;nbsp; з манжетами під запонки.&amp;nbsp; Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Сорочка з фігурним низом, що дозволяє носити її навипуск.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру&amp;nbsp;</description>
+</offer>
+<offer id="74" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-06.html</url>
+<price>395.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/125-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-06)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-06</vendorCode>
+<description>Сорочка біла з коротким рукавом «тюльпан». Закруглений комір-стійка&amp;nbsp; чорного кольору. Перед оздоблений чорним мереживом. Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. Сорочка з фігурним низом, що дозволяє носити її навипуск. Малюнок мережива може змінюватись.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="75" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-01.html</url>
+<price>340.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/094-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-01)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Блуза БЛ-01</vendorCode>
+<description>Блуза без рукава з декоративною деталлю&amp;nbsp; спереду&amp;nbsp; та застібкою на спинці. Силует напівприталений. Ремінь до комплекту не входить.
+
+Тканина : батист.
+
+Склад : &amp;nbsp;бавовна.
+
+На моделі ще представлено: СПІДНИЦЯ С-03</description>
+</offer>
+<offer id="76" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-07.html</url>
+<price>435.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/301-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-07)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-07</vendorCode>
+<description>Сорочка з довгим рукавом та &amp;nbsp;біло-голубим принтом. Стійка коміра та внутрішня планка білого кольору. Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. Сорочка з фігурним низом, що дозволяє носити її навипуск.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру&amp;nbsp;</description>
+</offer>
+<offer id="77" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-08.html</url>
+<price>420.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/314-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-08)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-08</vendorCode>
+<description>Сорочка білого кольору з довгим рукавом. Комір, внутрішня планка та манжети виконані з тканини з біло-голубим принтом. Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует. Сорочка з фігурним низом, що дозволяє носити її навипуск.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="78" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-02.html</url>
+<price>395.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/324-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-02)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Блуза БЛ-02</vendorCode>
+<description>Блуза блакитного кольору без рукава з баскою, по переду оздобленою складками. Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует.
+
+Склад: бавовна з додаванням еластину.</description>
+</offer>
+<offer id="79" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-03.html</url>
+<price>395.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/324-11-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-03)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Блуза БЛ-03</vendorCode>
+<description>Блуза білого кольору без рукава з баскою, по переду оздобленою складками. Від лінії плеча, по переду і спинці, проходять рельєфні шви, що створюють приталений силует.
+
+Склад: бавовна з додаванням еластину.</description>
+</offer>
+<offer id="80" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-04.html</url>
+<price>435.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/288-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-04)</name>
+<vendor></vendor>
+<vendorCode>Блуза БЛ-04</vendorCode>
+<description>Блуза білого кольору з запахом та зав’язкою на бант. Довгий рукав, комір стійка.
+
+Склад: бавовна з додаванням еластину.</description>
+</offer>
+<offer id="81" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-05.html</url>
+<price>460.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/295-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-05)</name>
+<vendor></vendor>
+<vendorCode>Блуза БЛ-05</vendorCode>
+<description>Блуза білого кольору з довгим рукавом, закругленим коміром стійкою &amp;nbsp;та кокетками. Кокетки оздоблені мереживом.&amp;nbsp; Спереду на &amp;nbsp;талії&amp;nbsp; пояс-бант. Малюнок мережива може змінюватися.
+
+Склад: бавовна з додаванням поліестеру</description>
+</offer>
+<offer id="82" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-06.html</url>
+<price>360.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/253-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-06)</name>
+<vendor></vendor>
+<vendorCode>Блуза БЛ-06</vendorCode>
+<description>Блуза білого кольору з коміром стійкою. Перед виготовлений з мережева з підкладкою білого кольору та з імітацією застібки. Спинка трикотажна з застібкою на стійці. Рукав короткий. Малюнок мережива може змінюватися.
+
+Склад: віскоза, еластин</description>
+</offer>
+<offer id="83" available="false" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-01.html</url>
+<price>375.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/052-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-01)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Спідниця С-01</vendorCode>
+<description>Спідниця бежевого кольору з чорним мереживом. Лінія талії занижена, ззаду розріз. Довжина спідниці - &amp;nbsp;XS/S-46см,M/L-49 см.
+
+Тканина:&amp;nbsp; поліестер з додаванням &amp;nbsp;еластину.</description>
+</offer>
+<offer id="84" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-02.html</url>
+<price>370.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/060-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-02)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Спідниця С-02</vendorCode>
+<description>Спідниця бежевого кольору з рельєфними швами та кишенями, звужена донизу. Лінія талії злегка завищена. Ззаду шліца. Довжина спідниці :&amp;nbsp;XS/S-46см,M/L-49 см
+
+Тканина: поліестер з додаванням еластину.</description>
+</offer>
+<offer id="85" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-03.html</url>
+<price>560.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/125-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-03)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Спідниця С-03</vendorCode>
+<description>Спідниця чорного кольору з рельєфними швами звужена донизу . Лінія талії злегка завищена. Ззаду шліца. Застібка: металева «блискавка». Довжина спідниці:&amp;nbsp;XS/S-46см,M/L-49 см
+
+Тканина: поліестер з додаванням еластину.</description>
+</offer>
+<offer id="86" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-04.html</url>
+<price>580.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/144-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-04)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Спідниця С-04</vendorCode>
+<description>Спідниця чорного кольору з рельєфними швами звужена донизу . Лінія талії злегка завищена та оздоблена баскою. Ззаду шліца. Довжина спідниці:&amp;nbsp;XS/S-46см,M/L-49 см
+
+Тканина: поліестер з додаванням еластину.</description>
+</offer>
+<offer id="87" available="false" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-05.html</url>
+<price>640.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/164-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-05)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Спідниця С-05</vendorCode>
+<description>Спідниця чорного кольору з рельєфними швами звужена донизу . Лінія талії злегка завищена. Ззаду наскрізна металева застібка «блискавка» червоного кольору. Довжина:&amp;nbsp;XS/S-55см,M/L-60 см
+
+Тканина: поліестер з додаванням еластину.</description>
+</offer>
+<offer id="88" available="true" >
+<url>http://mag-zigzag.ml/zhiletki/zhiletka-ka-01.html</url>
+<price>640.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/195-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-01)</name>
+<vendor></vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-01</vendorCode>
+<description>Камізелька чорна з глибоким фігурним вирізом та декоративним відкладним комірцем.
+
+Комірець та бокові частини камізельки виконані з атласу. Ширина регулюється хлястиком на спинці.
+
+Довжина: XS/S-49 см, M/L - 52 см.
+
+Тканина : віскоза, поліестер.</description>
+</offer>
+<offer id="89" available="true" >
+<url>http://mag-zigzag.ml/zhiletki/zhiletka-ka-02.html</url>
+<price>490.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/199-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-02)</name>
+<vendor></vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-02</vendorCode>
+<description>Камізелька з відкритою спиною , кишені «в рамку». Застібається на шиї за допомогою хлястика.
+
+Тканина : віскоза, поліестер.</description>
+</offer>
+<offer id="90" available="true" >
+<url>http://mag-zigzag.ml/zhiletki/zhiletka-ka-03.html</url>
+<price>640.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/217-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-03)</name>
+<vendor></vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-03</vendorCode>
+<description>Камізелька чорна класична, кишені «в рамку». Ширина регулюється хлястиком на спинці. Довжина по спинці: XS/S-52 см., M/L -55 см.
+
+Тканина : віскоза, поліестер.</description>
+</offer>
+<offer id="91" available="true" >
+<url>http://mag-zigzag.ml/zhiletki/zhiletka-ka-04.html</url>
+<price>690.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/225-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-04)</name>
+<vendor></vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-04</vendorCode>
+<description>Камізелька чорна з мереживними підтяжками. Розмір регулюється шнурівкою на спинці. Для забезпечення форми в бокові шви вставлені металеві «кісточки». Довжина по боковому шву: XS/S -25 см., M/L -28 см.
+
+Тканина : віскоза, поліестер</description>
+</offer>
+<offer id="92" available="false" >
+<url>http://mag-zigzag.ml/zhiletki/zhiletka-ka-05.html</url>
+<price>410.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/349-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-05)</name>
+<vendor></vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-05</vendorCode>
+<description>Камізелька фіолетового кольору з декоративною деталлю на спинці. Спереду кокетки, справа накладна кишеня. Фурнітура металева. Довжина по спинці: XS/S-52 см.,M/L-55 см.
+
+Тканина: бавовна, поліестер.</description>
+</offer>
+<offer id="93" available="true" >
+<url>http://mag-zigzag.ml/korsety/korset-k-01.html</url>
+<price>530.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>62</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/178-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>КОРСЕТ (К-01)</name>
+<vendor></vendor>
+<vendorCode>КОРСЕТ К-01</vendorCode>
+<description>Корсет чорний короткий із застібкою на гачках. Розмір регулюється за допомогою шнурівки на спині. Для забезпечення форми в шви вставлені металеві «кісточки». Корсет на підкладці. Довжина: XS/S-20 см, M/L -23 см.
+
+Тканина: поліестер з додаванням еластину.</description>
+</offer>
+<offer id="94" available="true" >
+<url>http://mag-zigzag.ml/korsety/korset-k-02.html</url>
+<price>695.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>62</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/208-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>КОРСЕТ (К-02)</name>
+<vendor></vendor>
+<vendorCode>КОРСЕТ К-02</vendorCode>
+<description>Корсет чорний, збоку застібка «блискавка». Розмір регулюється за допомогою шнурівки на спині. Для забезпечення форми в шви вставлені металеві «кісточки». Корсет на підкладці. &amp;nbsp;Довжина: XS/S-32см, M/L -35 см.
+
+Тканина: поліестер з додаванням еластину.</description>
+</offer>
+<offer id="95" available="true" >
+<url>http://mag-zigzag.ml/korsety/korset-k-03.html</url>
+<price>650.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>62</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/241-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>КОРСЕТ (К-03)</name>
+<vendor></vendor>
+<vendorCode>КОРСЕТ К-03</vendorCode>
+<description>Корсет чорний в червону смужку оздоблений клапанами. Розмір регулюється за допомогою шнурівки на спині. Для забезпечення форми в шви вставлені металеві «кісточки». Корсет на підкладці. Довжина: XS/S -32 см, M/L-35 см.
+
+Тканина: поліестер з додаванням еластину.</description>
+</offer>
+<offer id="96" available="true" >
+<url>http://mag-zigzag.ml/korsety/korset-k-04.html</url>
+<price>680.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>62</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/083-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>КОРСЕТ (К-04)</name>
+<vendor></vendor>
+<vendorCode>КОРСЕТ К-04</vendorCode>
+<description>Корсет темно коричневий, збоку застібка «блискавка». Розмір регулюється за допомогою шнурівки на спині. Для забезпечення форми в шви вставлені металеві «кісточки». Корсет на підкладці. Довжина: XS/S -32 см, M/L-35 см.
+
+Тканина : жаккард з додаванням еластину.</description>
+</offer>
+<offer id="97" available="false" >
+<url>http://mag-zigzag.ml/akssesuary/podtyazhki-zhenskie.html</url>
+<price>110.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/228-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>ПІДТЯЖКИ жіночі (ПО-01)</name>
+<vendor></vendor>
+<vendorCode>Підтяжки П-01</vendorCode>
+<description>Мереживні підтяжки з металевою фурнітурою.</description>
+</offer>
+<offer id="98" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/galstuk.html</url>
+<price>435.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/333-Studio-Session.jpg</picture>
+<delivery>true</delivery>
+<name>КРАВАТКА (КВ-01)</name>
+<vendor></vendor>
+<vendorCode>Краватка КВ-01</vendorCode>
+<description>Краватка вишита бісером, ручна робота.&amp;nbsp;
+
+Краватка виготовляэться під заказ (7-10 днів)</description>
+</offer>
+<offer id="99" available="true" >
+<url>http://mag-zigzag.ml/yubki/plate-p-01.html</url>
+<price>1285.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-018.jpg</picture>
+<delivery>true</delivery>
+<name>СУКНЯ (П-01)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>СУКНЯ П-01</vendorCode>
+<description>Верх сукні виконаний у вигляді корсету з легкої джинсової тканини з металевими «кісточками» і шнурівкою на спині, низ з мереживних фальбанок на підкладці.
+
+Склад: верх - 100% бавовна, низ - 100% ПЕ, бавовна з додаванням ПЕ.
+
+&amp;nbsp;</description>
+</offer>
+<offer id="100" available="true" >
+<url>http://mag-zigzag.ml/yubki/plate-p-02.html</url>
+<price>645.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-029.jpg</picture>
+<delivery>true</delivery>
+<name>СУКНЯ (П-02)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>СУКНЯ П-02</vendorCode>
+<description>Облягаюча&amp;nbsp; сукня з мережива чорного кольору на бежевій підкладці.
+
+Склад: верх – 100% ПЕ, підкладка – 95% віскоза, 5% еластин.</description>
+</offer>
+<offer id="101" available="true" >
+<url>http://mag-zigzag.ml/yubki/plate-p-03.html</url>
+<price>645.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-031.jpg</picture>
+<delivery>true</delivery>
+<name>СУКНЯ (П-03)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>СУКНЯ П-03</vendorCode>
+<description>Облягаюча&amp;nbsp; сукня з мережива фіолетового кольору на жовтій підкладці.
+
+Склад: верх – 100% ПЕ, підкладка – 95% віскоза, 5% еластин.</description>
+</offer>
+<offer id="102" available="true" >
+<url>http://mag-zigzag.ml/yubki/plate-p-04.html</url>
+<price>645.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-038.jpg</picture>
+<delivery>true</delivery>
+<name>СУКНЯ (П-04)</name>
+<vendor></vendor>
+<vendorCode>СУКНЯ П-04</vendorCode>
+<description>Облягаюча&amp;nbsp; сукня з мережива темно сірого кольору на світло сірій підкладці.
+
+Склад: верх – 100% ПЕ, підкладка – 95% віскоза, 5% еластин.</description>
+</offer>
+<offer id="103" available="true" >
+<url>http://mag-zigzag.ml/yubki/plate-p-05.html</url>
+<price>790.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-041.jpg</picture>
+<delivery>true</delivery>
+<name>СУКНЯ (П-05)</name>
+<vendor></vendor>
+<vendorCode>СУКНЯ П-05</vendorCode>
+<description>Сукня футляр білого кольору з рельєфами від пройми.
+
+Склад: віскоза, еластин, пе.</description>
+</offer>
+<offer id="104" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-06.html</url>
+<price>510.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-076.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-06)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Спідниця С-06</vendorCode>
+<description>Спідниця на стегнах звужена до низу, спереду застібка на ґудзики, з поясом кокеткою та кишенями. Довжина спідниці до середини коліна.
+
+Склад: віскоза, пе.</description>
+</offer>
+<offer id="105" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-07.html</url>
+<price>410.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-091.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-07)</name>
+<vendor></vendor>
+<vendorCode>Спідниця С-07</vendorCode>
+<description>Спідниця бежева з мережева на підкладці. Посадка середня на стегнах. Пояс на резинці.
+
+Склад: верх-100% пе, підкладка – 95% віскоза, 5% еластин.</description>
+</offer>
+<offer id="106" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-08.html</url>
+<price>535.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-107.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-08)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Спідниця С-08</vendorCode>
+<description>Спідниця з фальбанками насиченого &amp;nbsp;блакитного кольору з мережива на підкладці. Посадка середня на стегнах. Пояс на резинці.
+
+Склад: верх-100% пе, підкладка – 95% віскоза, 5% еластин</description>
+</offer>
+<offer id="107" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-09.html</url>
+<price>495.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-123.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-09)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Спідниця С-09</vendorCode>
+<description>Світла котонова спідниця сонце кльош з малюнком крупних квітів. Пояс знаходиться на талії.
+
+Склад: 100% бавовна.</description>
+</offer>
+<offer id="108" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-10.html</url>
+<price>395.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-144.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-10)</name>
+<vendor></vendor>
+<vendorCode>Спідниця С-10</vendorCode>
+<description>Чорна міні спідниця з фігурним низом. Посадка на стегнах без поясу, застібка – потайна блискавка.
+
+Завдяки формі&amp;nbsp;низу, спідниця візуально подовжує&amp;nbsp;ноги.
+
+Склад: віскоза, пе.</description>
+</offer>
+<offer id="109" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-11.html</url>
+<price>410.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-151.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-11)</name>
+<vendor></vendor>
+<vendorCode>Спідниця С-11</vendorCode>
+<description>Атласна спідниця кльош чорного кольору. Пояс знаходиться на талії.
+
+Склад: 100% пе.</description>
+</offer>
+<offer id="110" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-12.html</url>
+<price>560.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-189.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-12)</name>
+<vendor></vendor>
+<vendorCode>Спідниця С-12</vendorCode>
+<description>Спідниця молочного кольору з трикотажу джерсі. Покрій &amp;nbsp;– сонце кльош. Низ спідниці декорований темно синім мереживом. Пояс на талії.
+
+Склад: віскоза, пе.</description>
+</offer>
+<offer id="111" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-13.html</url>
+<price>590.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-171.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-13)</name>
+<vendor></vendor>
+<vendorCode>Спідниця С-13</vendorCode>
+<description>Спідниця з завищеною кокеткою і &amp;nbsp;імітацією &amp;nbsp;запаху, з трьома оздоблювальними складками та фігурним низом.
+
+Склад: віскоза, пе.</description>
+</offer>
+<offer id="112" available="true" >
+<url>http://mag-zigzag.ml/korsety/korset-k-05.html</url>
+<price>430.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>62</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-123.jpg</picture>
+<delivery>true</delivery>
+<name>КОРСЕТ (К-05)</name>
+<vendor></vendor>
+<vendorCode>КОРСЕТ К-05</vendorCode>
+<description>Корсет з тонкої джинсової тканини без підкладки. У шви вставлені метелеві «кісточки», які забеспечують форму корсета. На спині шнурівка.
+
+
+Склад: бавовна, пе.</description>
+</offer>
+<offer id="113" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-09.html</url>
+<price>445.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-056.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-09)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-09</vendorCode>
+<description>Легка сіра сорочка в дрібний рожевий горошок з довгим рукавом і кокеткою. Стійка коміра та внутрішня планка виконані з тканини ніжно рожевого кольору. Сорочка з фігурним низом, що дозволяє носити її на випуск. Ґудзики рожеві. Силует &amp;nbsp;напівприлеглий.
+
+Склад: віскоза, пе.</description>
+</offer>
+<offer id="114" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-10.html</url>
+<price>455.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-252.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-10)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-10</vendorCode>
+<description>Сорочка бежевого кольору з довгим рукавом. Спереду та на спинці кокетка з блакитно-бежевого мережива. Ґудзики контрастного блакитного кольору. Сорочка з фігурним низом, що дозволяє носити її на випуск. Силует напівприлеглий.
+
+Склад: основна тканина – бавовна з додаванням пе, мереживо – 100% пе.</description>
+</offer>
+<offer id="115" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-11.html</url>
+<price>425.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-164.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-11)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-11</vendorCode>
+<description>Біла сорочка з довгим рукавом. Комір і манжети виконані з чорної тканини в білий горошок . Стійка коміра і ґудзики чорного кольору. Від лінії плеча, по спинці і по переду , проходять рельєфні шви, які створюють приталений силует. Сорочка з фігурним низом , що дозволяє носити її навипуск.
+
+Склад: бавовна з додаванням пе.
+
+&amp;nbsp;</description>
+</offer>
+<offer id="116" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-12.html</url>
+<price>485.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-197.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-12)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-12</vendorCode>
+<description>Сорочка біла в дрібну синю смужку з довгим рукавом і кокеткою . Комір і манжети виконані з тканини білого кольору. Стійка коміра застібається на два ґудзики . У верхній частині планка застібається на три&amp;nbsp; ґудзики, інша частина планки виготовлена ​​потайною . Кокетка на спинці і спереду декорована мереживом. Сорочка з фігурним низом , що дозволяє носити її на випуск . Силует напівприлеглий .
+
+Склад: бавовна з додаванням еластину</description>
+</offer>
+<offer id="117" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-13.html</url>
+<price>435.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-r13.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-13)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-13</vendorCode>
+<description>Сорочка жіноча&amp;nbsp;темно синього кольору. Стійка коміра, внутрішня планка та&amp;nbsp;внутрішня частина манжету &amp;nbsp;виконані з тканини з біло-синім принтом. Від лінії плеча по переду і спинці проходять рельєфні шви, що створюють приталений силует.&amp;nbsp;Сорочка з фігурним низом , що дозволяє носити її на випуск .&amp;nbsp;
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="118" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-07.html</url>
+<price>375.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-076.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-07)</name>
+<vendor></vendor>
+<vendorCode>Блуза БЛ-07</vendorCode>
+<description>Легка рожева блуза в дрібний горошок без рукава. Перед &amp;nbsp;декорований широким білим мереживом. Білий комір на стійці. На спинці застібка на ґудзики.
+
+Склад: основна тканина – віскоза з додаванням пе, мереживо – 100% пе.</description>
+</offer>
+<offer id="119" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-10.html</url>
+<price>485.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-134.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-10)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-10</vendorCode>
+<description>Легка сорочка боді бежевого кольору в дрібний чорний горошок. Силует вільний . Рукав ¾ з манжетами чорного кольору. Перед на ґудзиках декорований чорним мереживом . Круглий комір на стійці.
+
+
+
+&amp;nbsp;
+
+Склад: віскоза, пе.</description>
+</offer>
+<offer id="120" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-11.html</url>
+<price>495.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-186.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-11)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-11</vendorCode>
+<description>Сорочка боді молочного кольору з довгим рукавом.&amp;nbsp; Рукава та фігурна кокетка виконані &amp;nbsp;з мережива в колір сорочки, манжети і комір з основної тканини. На ґудзик коміра пристібається знімне жабо. Спереду потайна застібка на ґудзики.&amp;nbsp;Боді по довжині регулюється еластичною вставкою на гачках.
+
+Склад: основна тканина-хлопок з пе, мереживо -пе</description>
+</offer>
+<offer id="121" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-12.html</url>
+<price>485.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-b12.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-12)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-12</vendorCode>
+<description>Сорочка боді з тканини в дрібну квіточку з довгим рукавом і кокеткою . Комір і манжети виконані з світло коричневої тканини, стійка коміра і планки на рукавах - з тканини коралового кольору . Перед прикрашений двобарвними декоративними « рамками ». Боді по довжині регулюється еластичною вставкою на гачки.
+
+Силует : напівприлеглий
+
+Склад тканини : 100% бавовна
+
+&amp;nbsp;</description>
+</offer>
+<offer id="122" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-13.html</url>
+<price>445.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-254.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-13)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-13</vendorCode>
+<description>Сорочка боді « молочного » кольору з рукавом 3/4. Комір і манжети виготовлені з тканини теракотового кольору. Стійка коміра , внутрішня планка, і планка на рукаві виконані з тканини в кольоровий горошок. Від лінії плеча, по спинці і по переду , проходять рельєфні шви, які створюють приталений силует. Боді по довжині регулюється еластичною вставкою на гачки.
+
+&amp;nbsp;
+
+Склад тканини : бавовна з додаванням поліестеру</description>
+</offer>
+<offer id="123" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-b-14.html</url>
+<price>470.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-bodi_b14(3).jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (Б-14)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ Б-14</vendorCode>
+<description>Сорочка боді червоного кольору. Стійка коміра та&amp;nbsp;внутрішня планка &amp;nbsp;виконані з тканини з червоно-білим принтом. Від лінії плеча по переду і спинці проходять рельєфні шви, що створюють приталений силует. &amp;nbsp;Боді по довжині регулюється еластичною вставкою&amp;nbsp; на гачках.
+
+Склад тканини: бавовна з додаванням &amp;nbsp;поліестеру</description>
+</offer>
+<offer id="125" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-bt-14.html</url>
+<price>490.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-082.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (БТ-14)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ ТБ-14</vendorCode>
+<description>Боді сорочка трикотажна облягаюча з підрізом під грудьми і прізборкою . Планка на ґудзиках декорована мереживом. Боді по довжині регулюється еластичною вставкою на гачки. Колір – рожево &amp;nbsp;коричневий принт.
+
+Склад: віскоза, пе.</description>
+</offer>
+<offer id="126" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-bt-15.html</url>
+<price>435.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-261.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (БТ-15)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ БТ-15</vendorCode>
+<description>Боді сорочка &amp;nbsp;біла трикотажна облягаюча з підрізом під грудьми і прізборкою . Спереду підріз декорований чорним мереживом. Боді по довжині регулюється еластичною вставкою на гачках.
+
+&amp;nbsp;
+
+Склад: віскоза, пе.</description>
+</offer>
+<offer id="127" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-bt-16.html</url>
+<price>490.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-270.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (БТ-16)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>БОДІ ТБ-16</vendorCode>
+<description>Боді сорочка трикотажна облягаюча з підрізом під грудьми і призборкою . Планка на ґудзиках. Боді по довжині регулюється еластичною вставкою на гачки. Колір – блакитно сірий у ромб.
+
+Склад: віскоза, пе.</description>
+</offer>
+<offer id="128" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/gorzhetka-g-01.html</url>
+<price>85.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015_g01.jpg</picture>
+<delivery>true</delivery>
+<name>ГОРЖЕТКА (Г-01)</name>
+<vendor></vendor>
+<vendorCode>Горжетка Г-01</vendorCode>
+<description>Горжетка насиченого блакитного кольору.
+
+Склад: мереживо-100% пе</description>
+</offer>
+<offer id="129" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/gorzhetka-g-02.html</url>
+<price>85.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015_g02.jpg</picture>
+<delivery>true</delivery>
+<name>ГОРЖЕТКА (Г-02)</name>
+<vendor></vendor>
+<vendorCode>Горжетка Г-02</vendorCode>
+<description>Горжетка з чорно білого мережива.
+
+Склад: мереживо-100% пе</description>
+</offer>
+<offer id="130" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/gorzhetka-g-03.html</url>
+<price>85.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015_g03.jpg</picture>
+<delivery>true</delivery>
+<name>ГОРЖЕТКА (Г-03)</name>
+<vendor></vendor>
+<vendorCode>Горжетка Г-03</vendorCode>
+<description>Горжетка мереживна темно синього кольору.
+
+Склад: мереживо-100% пе</description>
+</offer>
+<offer id="131" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/gorzhetka-g-04.html</url>
+<price>85.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015_g04.jpg</picture>
+<delivery>true</delivery>
+<name>ГОРЖЕТКА (Г-04)</name>
+<vendor></vendor>
+<vendorCode>Горжетка Г-04</vendorCode>
+<description>Горжетка мереживна рожева.
+
+Склад: мереживо-100% пе</description>
+</offer>
+<offer id="132" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/gorzhetka-g-05.html</url>
+<price>85.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015_g05.jpg</picture>
+<delivery>true</delivery>
+<name>ГОРЖЕТКА (Г-05)</name>
+<vendor></vendor>
+<vendorCode>Горжетка Г-05</vendorCode>
+<description>Горжетка мереживна біла.
+
+Склад: мереживо-100% пе
+
+&amp;nbsp;</description>
+</offer>
+<offer id="134" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-14.html</url>
+<price>740.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-154.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-014)</name>
+<vendor></vendor>
+<vendorCode>Спідниця С-14</vendorCode>
+<description>Спідниця на підтяжках з завищеною кокеткою, звужена до низу, ззаду шліца.
+
+Склад: віскоза, пе, еластин.</description>
+</offer>
+<offer id="136" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-15.html</url>
+<price>440.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-b12(2).jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-15)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-15</vendorCode>
+<description>Сорочка жіноча з тканини в дрібну квіточку з довгим рукавом і кокеткою . Комір і манжети виконані з світло коричневої тканини, стійка коміра і планки на рукавах - з тканини коралового кольору . Перед прикрашений двобарвними декоративними « рамками ». Боді по довжині регулюється еластичною вставкою на гачки.
+
+Силует : напівприлеглий
+
+Склад тканини : 100% бавовна</description>
+</offer>
+<offer id="138" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-15.html</url>
+<price>560.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/vesna15/Studio_09_03_2015-r13(1).jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-15)</name>
+<vendor></vendor>
+<vendorCode>Спідниця С-15</vendorCode>
+<description>Спідниця темно синього кольору з рельєфними швами звужена донизу . Лінія талії злегка завищена. Ззаду шліца. Довжина спідниці:&amp;nbsp;XS/S-46см,M/L-49 см
+
+Тканина: поліестер з додаванням еластину.</description>
+</offer>
+<offer id="139" available="true" >
+<url>http://mag-zigzag.ml/yubki/plate-p-06.html</url>
+<price>880.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-404.jpg</picture>
+<delivery>true</delivery>
+<name>СУКНЯ (П-06)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Сукня П-06</vendorCode>
+<description>Сукня-сорочка вільного силуету з застібкою поло, кишенями в бічних швах, декоративним клапаном на спинці і фігурним низом. Рукав злегка приспущено з хлястиком, що регулює довжину. Сукню виконано з тканини в клітку. Рукава, стійка коміра, внутрішня планка застібки і клапан-оздоблювальні.
+
+Склад: бавовна з додаванням пе.</description>
+</offer>
+<offer id="140" available="true" >
+<url>http://mag-zigzag.ml/bodi/bodi-bt-17.html</url>
+<price>490.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>57</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-572.jpg</picture>
+<delivery>true</delivery>
+<name>БОДІ (БТ-17)</name>
+<vendor></vendor>
+<vendorCode>БОДІ БТ-17</vendorCode>
+<description>Боді сорочка трикотажна облягаюча з підрізом під грудьми . Планка на ґудзиках декорована мереживом. Боді по довжині регулюється еластичною вставкою на гачках. Колір – принт кольоровий &amp;nbsp;на блакитно-сірому&amp;nbsp;фоні.
+
+Склад: віскоза, пе
+
+На моделі ще представлено: СПІДНИЦЯ С-06
+
+&amp;nbsp;</description>
+</offer>
+<offer id="141" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/galstuk-kv-02.html</url>
+<price>275.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-751_2.jpg</picture>
+<delivery>true</delivery>
+<name>КРАВАТКА (КВ-02)</name>
+<vendor></vendor>
+<vendorCode>КРАВАТКА КВ-02</vendorCode>
+<description>Жіноча краватка з льону та мережива сірого кольору
+
+Склад: льон, пе</description>
+</offer>
+<offer id="142" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/galstuk-kv-03.html</url>
+<price>275.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-761_2.jpg</picture>
+<delivery>true</delivery>
+<name>КРАВАТКА (КВ-04)</name>
+<vendor></vendor>
+<vendorCode>КРАВАТКА КВ-03</vendorCode>
+<description>Жіноча краватка з бавовни та мережива рожевого кольору
+
+Склад: бавовна, пе</description>
+</offer>
+<offer id="143" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/galstuk-kv-04.html</url>
+<price>275.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-757_2.jpg</picture>
+<delivery>true</delivery>
+<name>КРАВАТКА (КВ-04)</name>
+<vendor></vendor>
+<vendorCode>КРАВАТКА КВ-04</vendorCode>
+<description>Жіноча краватка з льону зеленого кольору
+
+Склад: 100% льон</description>
+</offer>
+<offer id="144" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-08.html</url>
+<price>360.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-744.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-08)</name>
+<vendor></vendor>
+<vendorCode>Блуза БЛ-08</vendorCode>
+<description>Блуза чорного кольору з коміром стійкою. Перед виготовлений з мережева з підкладкою чорного кольору та з імітацією застібки. Спинка трикотажна з застібкою на стійці. Рукав короткий. Малюнок мережива може змінюватися.
+
+Склад: віскоза, еластин</description>
+</offer>
+<offer id="145" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/sharf-sh-01.html</url>
+<price>345.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-628_1.jpg</picture>
+<delivery>true</delivery>
+<name>ШАРФ (Ш-01)</name>
+<vendor></vendor>
+<vendorCode>Шарф Ш-01</vendorCode>
+<description>Легкий кораловий шарф з натуральної тканини з авторським принтом «вишиванка».
+
+Розмір: 45х175см
+
+Склад: льон з додаванням бавовни</description>
+</offer>
+<offer id="146" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/sharf-sh-02.html</url>
+<price>345.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-644_1.jpg</picture>
+<delivery>true</delivery>
+<name>ШАРФ (Ш-02)</name>
+<vendor></vendor>
+<vendorCode>Шарф Ш-02</vendorCode>
+<description>Легкий світлий шарф з натуральної тканини з авторським принтом «вишиванка».
+
+Колір: невибілений льон
+
+Розмір: 45х200см
+
+Склад: льон з додаванням бавовни</description>
+</offer>
+<offer id="147" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/sharf-sh-04.html</url>
+<price>345.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-707_1.jpg</picture>
+<delivery>true</delivery>
+<name>ШАРФ (Ш-04)</name>
+<vendor></vendor>
+<vendorCode>Шарф Ш-04</vendorCode>
+<description>Легкий льняний шарф молочного кольору з тонкою бахромою на кінцях.
+
+Розмір: 45х110 см
+
+Склад: 100% льон</description>
+</offer>
+<offer id="148" available="true" >
+<url>http://mag-zigzag.ml/akssesuary/sharf-sh-03.html</url>
+<price>550.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>63</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-702_1.jpg</picture>
+<delivery>true</delivery>
+<name>ШАРФ(Ш-03)</name>
+<vendor></vendor>
+<vendorCode>Шарф Ш-03</vendorCode>
+<description>Льняний шарф з мереживом ручної роботи.
+
+Склад: 100% льон.</description>
+</offer>
+<offer id="149" available="true" >
+<url>http://mag-zigzag.ml/yubki/plate-p-07.html</url>
+<price>840.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-427.jpg</picture>
+<delivery>true</delivery>
+<name>СУКНЯ (П-07)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>СУКНЯ П-07</vendorCode>
+<description>Сукня-сорочка вільного силуету з декоративною вставкою на поличці, кишенями в бічних швах і фігурним низом. Рукав злегка приспущено з манжетом. Сукню виконано з тканини в клітинку. Рукава, стійка, внутрішня планка застібки, декоративна вставка полички-оздоблювальні.
+
+Склад: бавовна з додаванням пе.</description>
+</offer>
+<offer id="150" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-16.html</url>
+<price>460.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-611.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-16)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Спідниця С-16</vendorCode>
+<description>Спідниця біла в складки із заниженою талією на кокетці. Ззаду потайна блискавка.
+
+Склад: бавовна з додавання еластину.</description>
+</offer>
+<offer id="151" available="true" >
+<url>http://mag-zigzag.ml/yubki/yubka-s-17.html</url>
+<price>460.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>59</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-739.jpg</picture>
+<delivery>true</delivery>
+<name>СПІДНИЦЯ (С-17)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Спідниця С-16</vendorCode>
+<description>Юбка красная из лёгкого вельвета с рельефными швами и карманами, зауженная к низу. Линия талии слегка завышена. Сзади шлица. Длина юбки:&amp;nbsp;XS/S-46см,M/L-49 см
+
+Состав: пэ с эластином</description>
+</offer>
+<offer id="152" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-17.html</url>
+<price>450.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-454.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-17)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-17</vendorCode>
+<description>Сорочка триколірна вільного силуету з приспущеним рукавом і потайною застібкою. Комір - закруглений, лінія низу - фігурна. Перед, комір - блакитного кольору, спинка, кокетка, рукави – кольору &amp;nbsp;«шампань», стійка коміра, нижня планка застібки - темно сині.
+
+Склад: бавовна &amp;nbsp;з пе</description>
+</offer>
+<offer id="153" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-18.html</url>
+<price>455.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-492.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-18)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-18</vendorCode>
+<description>Сорочка біла напівприталена з довгим рукавом. Перед прикрашений тонким синім мереживом. Сорочка з фігурним низом, що дозволяє носити її навипуск. Малюнок мережива може змінюватися.
+
+Склад тканини: бавовна з додаванням пе.</description>
+</offer>
+<offer id="154" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-19.html</url>
+<price>470.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-499.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-19)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-19</vendorCode>
+<description>Сорочка темно синя напівприлягаючого силуету з оздобленням в клітинку.
+
+Склад тканини: бавовна з додаванням пе.</description>
+</offer>
+<offer id="155" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-20.html</url>
+<price>380.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-624.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-20)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-20</vendorCode>
+<description>Сорочка приталена кольору «пряжене молоко» з коротким фігурним рукавом і потайною застібкою.
+
+Склад: бавовна з додаванням пе.</description>
+</offer>
+<offer id="156" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-21.html</url>
+<price>395.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-736.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-21)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-21</vendorCode>
+<description>Сорочка з потайною застібкою білого кольору з довгим рукавом, чорними коміром, планкою і манжетами. Від лінії плеча, по спинці і по переду, проходять рельєфні шви, які створюють приталений силует.
+
+Склад тканини: бавовна з додаванням поліестеру</description>
+</offer>
+<offer id="157" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/rubashka-zhenskaya-r-22.html</url>
+<price>415.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-619.jpg</picture>
+<delivery>true</delivery>
+<name>Сорочка жіноча (Р-22)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Рубашка Р-22</vendorCode>
+<description>Легка чорна сорочка в дрібний білий горошок з довгим рукавом і кокеткою. Комір виконаний з тканини білого кольору. Сорочка з фігурним низом, що дозволяє носити її навипуск. Ґудзики білі. Силует напівприлеглий.
+
+Склад: віскоза, пе.</description>
+</offer>
+<offer id="158" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/tunika-t-01.html</url>
+<price>560.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-520.jpg</picture>
+<delivery>true</delivery>
+<name>ТУНІКА (Т-01)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Туніка Т-01</vendorCode>
+<description>Туніка трикотажна молочного кольору з фігурним низом і суцільнокроєним рукавом. У комплект входить майка.
+
+Склад туніки: віскоза з додаванням пе і еластину.
+
+Склад майки: віскоза з еластином</description>
+</offer>
+<offer id="159" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/tunika-t-02.html</url>
+<price>560.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-660.jpg</picture>
+<delivery>true</delivery>
+<name>ТУНІКА (Т-02)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Туніка Т-02</vendorCode>
+<description>Туніка коралова з суцільно кроєним рукавом. . У комплект входить майка.
+
+Склад туніки: віскоза з додаванням пе і еластину.
+
+Склад майки: віскоза з еластином.</description>
+</offer>
+<offer id="160" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-09.html</url>
+<price>380.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-647.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-09)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Блуза БЛ-09</vendorCode>
+<description>Блуза подовжена без рукава з мереживного полотна. Горловина, пройми, застібка і нижня частина блузи виконані з тканини в колір основної. З боків - розрізи.
+
+Склад: бавовна з додаванням пе</description>
+</offer>
+<offer id="161" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-10.html</url>
+<price>410.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-668.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-010)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Блуза БЛ-10</vendorCode>
+<description>Блуза вільного силуету з коротким рукавом та застібкою на спині. Спинка і рукава виконані з мереживного полотна. Горловина, низ рукава і застібка виконані з основної тканини.
+
+Склад: бавовна з додаванням пе.</description>
+</offer>
+<offer id="162" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-11.html</url>
+<price>460.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-526.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-11)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Блуза БЛ-11</vendorCode>
+<description>Блуза батистова з пришивним поясом, суцільнокроєним рукавом і капюшоном. Капюшон, пояс і накладна кишеня виконані з трикотажу в широку смужку.
+
+Склад: 100% бавовна</description>
+</offer>
+<offer id="163" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/bluza-zhenskaya-bl-12.html</url>
+<price>380.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-655.jpg</picture>
+<delivery>true</delivery>
+<name>Блуза жіноча (БЛ-12)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Блуза БЛ-12</vendorCode>
+<description>Блуза батистова без рукава з асиметричною декоративною деталлю спереду, виконаної з трикотажу. На спині застібка на ґудзики.
+
+Склад: 100% бавовна.</description>
+</offer>
+<offer id="164" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/futbolka-f-01.html</url>
+<price>260.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-678.jpg</picture>
+<delivery>true</delivery>
+<name>ФУТБОЛКА (Ф-01)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Футболка Ф-01</vendorCode>
+<description>Футболка c довгим рукавом і круглою горловиною з трикотажу в смужку.
+
+Склад: 100% бавовна.</description>
+</offer>
+<offer id="165" available="true" >
+<url>http://mag-zigzag.ml/rubashki-bluzy/futbolka-f-02.html</url>
+<price>260.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>24</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-682.jpg</picture>
+<delivery>true</delivery>
+<name>ФУТБОЛКА (Ф-02)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>Футболка Ф-02</vendorCode>
+<description>Футболка трикотажна чорна з V-подібною горловиною та довгим рукавом.
+
+Склад: віскоза з додавання еластану.</description>
+</offer>
+<offer id="166" available="true" >
+<url>http://mag-zigzag.ml/zhiletki/zhiletka-ka-06.html</url>
+<price>530.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-751.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-06)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-06</vendorCode>
+<description>Жилетка із застібкою на один ґудзик з відкритою спиною.
+
+Склад: віскоза з пе.</description>
+</offer>
+<offer id="167" available="true" >
+<url>http://mag-zigzag.ml/zhiletki/zhiletka-ka-06-01.html</url>
+<price>620.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-548.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-06-01)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-06-01</vendorCode>
+<description>Жилетка із застібкою на один ґудзик з відкритою спиною і коміром-краваткою
+
+Склад: віскоза з пе.</description>
+</offer>
+<offer id="168" available="true" >
+<url>http://mag-zigzag.ml/zhiletki/zhiletka-ka-06-02.html</url>
+<price>600.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-560.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-06-02)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-06-02</vendorCode>
+<description>Жилетка&amp;nbsp; с застежкой на одну пуговицу, на спине вставка из кружева
+
+Состав: вискоза с пэ.</description>
+</offer>
+<offer id="169" available="true" >
+<url>http://mag-zigzag.ml/zhiletki/zhiletka-ka-06-03.html</url>
+<price>630.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-567.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-06-03)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-06-03</vendorCode>
+<description>Жилетка із застібкою на один ґудзик і мереживними вставками з боків
+
+Склад: віскоза з пе.</description>
+</offer>
+<offer id="170" available="true" >
+<url>http://mag-zigzag.ml/zhiletki/zhiletka-ka-08.html</url>
+<price>690.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-615.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-08)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-08</vendorCode>
+<description>Жилетка чорна приталена, на спині декоративна мереживна вставка.
+
+Склад: віскоза з пе</description>
+</offer>
+<offer id="171" available="true" >
+<url>http://mag-zigzag.ml/index.php?route=product/product&amp;path=60&amp;product_id=171</url>
+<price>420.00</price>
+<currencyId>UAH</currencyId>
+<categoryId>60</categoryId>
+<picture>http://mag-zigzag.ml/image/data/products/Leto15/Studio_19_07_2015-631.jpg</picture>
+<delivery>true</delivery>
+<name>КАМІЗЕЛЬКА (КА-09)</name>
+<vendor>Майстерня Камізелька</vendor>
+<vendorCode>КАМІЗЕЛЬКА КА-09</vendorCode>
+<description>Жилетка з льону із зав&apos;язками на спині і малюнком «вишиванка».
+
+Склад: 100% льон</description>
+</offer>
+</offers>
+</shop></yml_catalog>

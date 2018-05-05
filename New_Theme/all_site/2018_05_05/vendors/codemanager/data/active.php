@@ -1,0 +1,1 @@
+<?php/*|["",{"username":"admin","path":"\/sata2\/home\/users\/zigzag\/www\/www.kamizelka.in.ua\/catalog\/view\/theme\/shopycart\/template\/common\/header.tpl"}]|*/?>

@@ -1,0 +1,31 @@
+<modification>
+	<id>Cart Popup Turbo</id>
+	<version>1.0.0</version>
+	<vqmver>1.2.3</vqmver>
+	<author>cmd (shop.workshop200.com :: workshop200@yandex.ru)</author>
+	<file name="catalog/view/theme/*/template/common/header.tpl">
+		<operation>
+			<search position="before" index="1"><![CDATA[</head>]]></search>
+			<add><![CDATA[
+			
+<script type="text/javascript">
+
+var cart_popup_height 			= 350; // cart height
+var cart_popup_width 			= 420; // cart width
+var button_continue_shopping 	= 'Continue shopping1111'; // set FALSE to disable
+var show_icon_cart 				= true; // show `cart` icon on the button
+var show_icon_checkout 			= true; // show `checkout` icon on the button
+var show_icon_continue_shopping = true; // show `continue shopping` icon on the button
+var disable_default_small_cart  = false; // popup cart instead of default mini cart
+
+</script>
+
+<script type="text/javascript" src="<?php echo HTTP_SERVER; ?>catalog/view/javascript/jquery/scroll/jquery.mCustomScrollbar.min.js"></script>
+<link rel="stylesheet" href="<?php echo HTTP_SERVER; ?>catalog/view/javascript/jquery/scroll/jquery.mCustomScrollbar.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo HTTP_SERVER; ?>catalog/view/javascript/jquery/ui/cart/jquery-ui-smoothness-cart.css" type="text/css" />
+<script type="text/javascript" src="<?php echo HTTP_SERVER; ?>catalog/view/javascript/common_extended.js"></script>
+			]]>				
+			</add>
+		</operation>
+	</file>
+</modification> 

@@ -1,0 +1,181 @@
+<modification>
+<id><![CDATA[SEO CUSTOM TITLE]]></id>
+<version><![CDATA[1.5]]></version>
+<opencart><![CDATA[1.5.6.X]]></opencart>
+<vqmver><![CDATA[2.4.1]]></vqmver>
+<author><![CDATA[Umang Amin]]></author>
+	<file name="admin/model/catalog/category.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "category_description SET category_id = '" . (int)$category_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', description = '" . $this->db->escape($value['description']) . "'");
+			]]></search>
+			<add trim="true"><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "category_description SET category_id = '" . (int)$category_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', meta_Title = '" . $this->db->escape($value['meta_Title']) . "',meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', description = '" . $this->db->escape($value['description']) . "'");
+			]]></add>
+		</operation>
+		
+		<operation>
+<search position="replace"><![CDATA[
+'meta_keyword'     => $result['meta_keyword'],
+]]></search>
+<add trim="true"><![CDATA[
+'meta_keyword'     => $result['meta_keyword'],
+'meta_Title'     => $result['meta_Title'],
+]]></add>
+</operation>
+	</file>
+	<file name="admin/language/english/catalog/category.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			$_['entry_name']             = 'Category Name:';
+			]]></search>
+			<add trim="true"><![CDATA[
+			$_['entry_name']             = 'Category Name:';
+			$_['entry_meta_Title'] 	 	= 'Meta Tag Title:';
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/controller/catalog/category.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			protected function getForm() {
+			]]></search>
+			<add trim="true"><![CDATA[
+			protected function getForm() {
+			$this->data['entry_meta_Title'] = $this->language->get('entry_meta_Title');
+			error_reporting(0);
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/view/template/catalog/category_form.tpl">
+		<operation>
+			<search position="replace"><![CDATA[
+			<td><?php echo $entry_meta_description; ?></td>
+			]]></search>
+			<add trim="true"><![CDATA[
+			<td><?php echo $entry_meta_Title; ?></td>
+             <td><input type="text" name="category_description[<?php echo $language['language_id']; ?>][meta_Title]" value="<?php echo isset($category_description[$language['language_id']]) ? $category_description[$language['language_id']]['meta_Title'] : ''; ?>" size="80" /></td></tr>
+			 <tr><td><?php echo $entry_meta_description; ?></td>
+			]]></add>
+		</operation>
+	</file>	
+	<file name="admin/model/localisation/language.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "category_description SET category_id = '" . (int)$category['category_id'] . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($category['name']) . "', meta_description = '" . $this->db->escape($category['meta_description']) . "', meta_keyword = '" . $this->db->escape($category['meta_keyword']) . "', description = '" . $this->db->escape($category['description']) . "'");
+			]]></search>
+			<add trim="true"><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "category_description SET category_id = '" . (int)$category['category_id'] . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($category['name']) . "', meta_Title = '" . $this->db->escape($category['meta_Title']) . "'meta_description = '" . $this->db->escape($category['meta_description']) . "', meta_keyword = '" . $this->db->escape($category['meta_keyword']) . "', description = '" . $this->db->escape($category['description']) . "'");
+			]]></add>
+		</operation>	
+		<operation>
+			<search position="replace"><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product['product_id'] . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($product['name']) . "', meta_description = '" . $this->db->escape($product['meta_description']) . "', meta_keyword = '" . $this->db->escape($product['meta_keyword']) . "', description = '" . $this->db->escape($product['description']) . "', tag = '" . $this->db->escape($product['tag']) . "'");
+			]]></search>
+			<add trim="true"><![CDATA[		
+			$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', meta_Title = '" . $this->db->escape($value['meta_Title']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "'");
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/product/category.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			$this->document->setTitle($category_info['name']);
+			]]></search>
+			<add trim="true"><![CDATA[
+			if($category_info['meta_Title'] ==""){
+		$this->document->setTitle($category_info['name']);
+		}
+		else {
+			
+			$this->document->setTitle($category_info['name']." ".$category_info['meta_Title']);
+			}
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/model/catalog/product.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			'meta_description' => $query->row['meta_description'],
+			]]></search>
+			<add trim="true"><![CDATA[
+			'meta_Title' 	   => $query->row['meta_Title'],
+			'meta_description' => $query->row['meta_description'],
+			]]></add>
+		</operation>
+	</file>	
+	<file name="admin/language/english/catalog/product.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			$_['entry_meta_keyword'] 	 = 'Meta Tag Keywords:';
+			]]></search>
+			<add trim="true"><![CDATA[
+			$_['entry_meta_keyword'] 	 = 'Meta Tag Keywords:';
+			$_['entry_meta_Title'] 	 	= 'Meta Tag Title:';
+			]]></add>
+		</operation>
+	</file>	
+	<file name="admin/controller/catalog/product.php">
+		<operation>
+			<search position="replace"><![CDATA[
+					$this->data['heading_title'] = $this->language->get('heading_title');
+			]]></search>
+			<add trim="true"><![CDATA[
+			$this->data['heading_title'] = $this->language->get('heading_title');
+			$this->data['entry_meta_Title'] = $this->language->get('entry_meta_Title');
+			error_reporting(0);
+			]]></add>
+		</operation>
+	</file>
+		<file name="admin/view/template/catalog/product_form.tpl">
+		<operation>
+			<search position="replace"><![CDATA[
+			<td><?php echo $entry_meta_description; ?></td>
+			]]></search>
+			<add trim="true"><![CDATA[
+			<td><?php echo $entry_meta_Title; ?></td>
+			 <td><input type="text" name="product_description[<?php echo $language['language_id']; ?>][meta_Title]" value="<?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['meta_Title'] : ''; ?>" size="80" /></td></tr>
+			 <tr>
+			 <td><?php echo $entry_meta_description; ?></td>
+			]]></add>
+		</operation>
+	</file>
+		<file name="admin/model/catalog/product.php">
+		<operation>
+			<search position="replace"><![CDATA[
+		$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "'");
+			]]></search>
+			<add trim="true"><![CDATA[
+			$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', meta_Title = '" . $this->db->escape($value['meta_Title']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "'");
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/model/catalog/product.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			'description'      => $result['description'],
+			]]></search>
+			<add trim="true"><![CDATA[
+			'description'      => $result['description'],
+			'meta_Title'      => $result['meta_Title'],
+	
+			]]></add>
+		</operation>
+	</file>
+		<file name="catalog/controller/product/product.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			$this->document->setTitle($product_info['name']);
+			]]></search>
+			<add trim="true"><![CDATA[
+		if($product_info['meta_Title'] ==""){
+		$this->document->setTitle($product_info['name']);
+		}
+		else {
+			$this->document->setTitle($product_info['name']." ".$product_info['meta_Title']);
+			}
+			]]></add>
+		</operation>
+	</file>
+	
+</modification>

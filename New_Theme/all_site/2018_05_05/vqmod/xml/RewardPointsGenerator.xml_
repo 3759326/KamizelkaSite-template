@@ -1,0 +1,85 @@
+<modification>
+	
+	<id>Reward Points Generator</id>
+	<version>1.0.0</version>
+	<vqmver>2.1.5</vqmver>
+	<author>DariyGRAY</author>
+	
+	<file name="admin/controller/sale/order.php">
+		<operation>
+			<search position="after"><![CDATA[$this->model_sale_order->addOrderHistory($this->request->get['order_id'], $this->request->post);]]></search>
+			<add><![CDATA[
+				$order_info = $this->model_sale_order->getOrder($this->request->get['order_id']);
+
+				if ($order_info && $order_info['customer_id'] && ($order_info['reward'] > 0)) {
+					$this->load->model('sale/customer');
+
+					$reward_total = $this->model_sale_customer->getTotalCustomerRewardsByOrderId($this->request->get['order_id']);
+
+					if (!$reward_total && ($rpg = $this->config->get('reward_points_generator')) && !empty($rpg['auto_order_id'])) {
+						if($this->request->post['order_status_id'] == $rpg['auto_order_id']) {
+							$this->model_sale_customer->addReward($order_info['customer_id'], $this->language->get('text_order_id') . ' #' . $this->request->get['order_id'], $order_info['reward'], $this->request->get['order_id']);
+						}
+					}
+				}
+			]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[$this->model_sale_order->editOrder($this->request->get['order_id'], $this->request->post);]]></search>
+			<add><![CDATA[
+				$order_info = $this->model_sale_order->getOrder($this->request->get['order_id']);
+
+				if ($order_info && $order_info['customer_id'] && ($order_info['reward'] > 0)) {
+					$this->load->model('sale/customer');
+
+					$reward_total = $this->model_sale_customer->getTotalCustomerRewardsByOrderId($this->request->get['order_id']);
+
+					if (!$reward_total && ($rpg = $this->config->get('reward_points_generator')) && !empty($rpg['auto_order_id'])) {
+						if($this->request->post['order_status_id'] == $rpg['auto_order_id']) {
+							$this->model_sale_customer->addReward($order_info['customer_id'], $this->language->get('text_order_id') . ' #' . $this->request->get['order_id'], $order_info['reward'], $this->request->get['order_id']);
+						}
+					}
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="admin/model/catalog/product.php">
+		<operation>
+			<search position="before"><![CDATA[if (isset($data['product_reward'])) {]]></search>
+			<add><![CDATA[
+				if (($rpg = $this->config->get('reward_points_generator')) && !empty($rpg['auto_generate'])) {
+					$this->load->model('module/reward_points_generator');
+
+					$this->model_module_reward_points_generator->generateRewardPointsByProductId($product_id);
+
+					unset($data['product_reward']);
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="admin/controller/catalog/product.php">
+		<operation>
+			<search position="after"><![CDATA[function getForm]]></search>
+			<add><![CDATA[
+				$this->load->language('module/reward_points_generator');
+
+				$this->data['warning_reward_points'] = sprintf($this->language->get('warning_reward_points'), $this->url->link('module/reward_points_generator','token=' . $this->session->data['token'],'SSL'));
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="admin/view/template/catalog/product_form.tpl">
+		<operation>
+			<search position="after"><![CDATA[<div id="tab-reward">]]></search>
+			<add><![CDATA[
+				<?php if (($rpg = $this->config->get('reward_points_generator')) && !empty($rpg['auto_generate'])) { ?>
+					<div class="warning"><?php echo $warning_reward_points; ?></div>
+				<?php } ?>
+			]]></add>
+		</operation>
+	</file>
+	
+</modification>
+

@@ -1,0 +1,276 @@
+<modification>
+
+	<id>Панель управления - Дополнительный отчет + учет только оплаченных заказов + время заказа</id>
+	<version>1.0.1</version>
+	<vqmver>2.1.5</vqmver>
+	<author>Sosnovskiy Sergey</author>
+	
+	<!-- Админ Отчет Плюс -->
+	
+	<file name="admin/controller/common/home.php">
+	    <operation><search position="before"><![CDATA[$this->data['text_total_sale_year']]]></search>
+			<add><![CDATA[// Sales
+			$this->data['text_total_sale_month'] = $this->language->get('text_total_sale_month');
+			// Orders
+			$this->data['text_total_order_day'] = $this->language->get('text_total_order_day');
+			$this->data['text_total_order_month'] = $this->language->get('text_total_order_month');
+			$this->data['text_total_order_year'] = $this->language->get('text_total_order_year');
+			// Returns
+			$this->data['text_total_return'] = $this->language->get('text_total_return');
+			$this->data['text_total_product'] = $this->language->get('text_total_product');
+			// Reviews
+			$this->data['text_total_review'] = $this->language->get('text_total_review');
+			// Banned IP
+			$this->data['text_total_customer_ban_ip'] = $this->language->get('text_total_customer_ban_ip');]]></add>
+		</operation>
+		<operation><search position="before"><![CDATA[$this->data['total_sale_year']]]></search>
+			<add><![CDATA[// Sales
+			$this->data['total_sale_month'] = $this->currency->format($this->model_sale_order->getTotalSalesByMonth(date('m')), $this->config->get('config_currency'));
+			// Orders
+			$this->data['total_order_day'] = $this->model_sale_order->getTotalOrderByDay();
+			$this->data['total_order_month'] = $this->model_sale_order->getTotalOrderByMonth();
+			$this->data['total_order_year'] = $this->model_sale_order->getTotalOrderByYear();]]></add>
+		</operation>
+		<operation><search position="before"><![CDATA[$this->load->model('sale/customer');]]></search>
+			<add><![CDATA[$this->load->model('sale/return');
+		$this->data['total_return'] = $this->model_sale_return->getTotalReturns();
+		
+		$this->load->model('catalog/product');
+		$this->data['total_product'] = $this->model_catalog_product->getTotalProducts();
+		
+		$this->load->model('catalog/review');
+		$this->data['total_review'] = $this->model_catalog_review->getTotalReviews();
+		
+		$this->load->model('sale/customer_ban_ip');
+		$this->data['total_customer_ban_ip'] = $this->model_sale_customer_ban_ip->getTotalCustomerBanIps();]]></add>
+		</operation>
+	</file>
+	
+	<file name="admin/model/sale/order.php">
+	    <operation><search position="before"><![CDATA[public function getTotalSalesByYear($year) {]]></search>
+			<add><![CDATA[
+	public function getTotalSalesByMonth($month) {
+      	$query = $this->db->query("SELECT SUM(total) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id > '0' AND MONTH(date_added) = MONTH(NOW()) AND YEAR(date_added) = YEAR(NOW())");
+		return $query->row['total'];
+	}]]></add>
+		</operation>
+		<operation><search position="before"><![CDATA[public function getTotalOrdersByStoreId($store_id) {]]></search>
+			<add><![CDATA[public function getTotalOrderByDay() {
+      	$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id > '0' AND DATE(date_added) = DATE(NOW())");
+		return $query->row['total'];
+	}
+	public function getTotalOrderByMonth() {
+      	$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id > '0' AND MONTH(date_added) = MONTH(NOW()) AND YEAR(date_added) = YEAR(NOW())");
+		return $query->row['total'];
+	}
+	public function getTotalOrderByYear() {
+      	$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id > '0' AND YEAR(date_added) = YEAR(NOW()) AND YEAR(date_added) = YEAR(NOW())");
+		return $query->row['total'];
+	}]]></add>
+		</operation>
+	</file>
+	
+	<file name="admin/language/russian/common/home.php" error="skip">
+	    <operation><search position="before"><![CDATA[$_['text_total_sale_year']]]></search>
+			<add><![CDATA[
+			// Sales
+			$_['text_total_sale_month']           = 'Продано в этом месяце на сумму:';
+			// Orders			
+			$_['text_total_order_year']           = 'Всего заказов за год:';
+			$_['text_total_order_month']          = 'Всего заказов за месяц:';
+			$_['text_total_order_day']            = 'Новых заказов за cегодня:';
+			// Banned IP
+			$_['text_total_customer_ban_ip']      = 'Блокированные IP пользователей:';
+			// Reviews
+			$_['text_total_review']               = 'Всего отзывов:';
+			// Returns
+			$_['text_total_return']               = 'Всего возвратов:';
+			// Products
+			$_['text_total_product']              = 'Всего товаров:';
+			]]></add>
+		</operation>
+		<operation error="skip">><search position="replace">
+		<![CDATA[$_['text_total_order']             	= 'Всего заказов:';]]></search>
+			<add><![CDATA[// Text
+			$_['text_total_order']             	= 'Всего оплаченых заказов:';
+			]]></add>
+		</operation>
+	</file>
+	
+		<file name="admin/model/sale/order.php">
+
+		<operation>
+    		<search position="before"><![CDATA[
+				public function getTotalOrdersByCurrencyId($currency_id) {
+    		]]></search>
+
+    		<add><![CDATA[
+	public function getTotalOrdersGroupByStatus() {
+		$query = $this->db->query("SELECT o.order_status_id, COUNT(o.order_status_id) AS total, s.name FROM `" . DB_PREFIX . "order` o LEFT JOIN " . DB_PREFIX . "order_status s ON o.order_status_id = s.order_status_id WHERE o.order_status_id > 0 GROUP BY o.order_status_id ORDER BY total DESC");
+
+		return $query->rows;
+	}
+    		]]></add>
+    	</operation>
+		
+    </file>
+	
+	<file name="admin/controller/common/home.php">
+
+		<operation>
+    		<search position="after"><![CDATA[
+				$this->data['total_order'] = $this->model_sale_order->getTotalOrders();
+    		]]></search>
+
+    		<add><![CDATA[
+				$this->data['total_order_by_group'] = $this->model_sale_order->getTotalOrdersGroupByStatus();
+    		]]></add>
+    	</operation>
+		
+    </file>
+
+	
+	<file name="admin/view/template/common/home.tpl">
+
+		<operation>
+    		<search position="replace" offset="1"><![CDATA[
+				<td><?php echo $total_order; ?></td>
+    		]]></search>
+
+    		<add><![CDATA[
+				<td><?php echo $total_order; ?></td>
+				</tr>
+				<?php
+				foreach ($total_order_by_group as $order_group) {
+					echo '
+						<tr>
+							<td>&nbsp;- '.$order_group['name'].'</td>
+							<td>'.$order_group['total'].'</td>
+						</tr>
+					';
+				}
+				?>
+    		]]></add>
+    	</operation>
+		
+    </file>
+	
+	<file name="admin/view/template/common/home.tpl">
+	    <operation><search position="after"><![CDATA[<?php echo $header; ?>]]></search>
+			<add><![CDATA[<style type="text/css">.dashboard-content tr:hover td {color:red}</style>]]></add>
+		</operation>
+		<operation><search position="after" offset="1"><![CDATA[<td><?php echo $total_sale_year; ?></td>]]></search>
+			<add><![CDATA[
+			<tr>
+              <td><?php echo $text_total_sale_month; ?></td>
+              <td><?php echo $total_sale_month; ?></td>
+            </tr>]]></add>
+		</operation>
+		<operation><search position="after" offset="1"><![CDATA[<td><?php echo $total_order; ?></td>]]></search>
+			<add><![CDATA[
+			<tr>
+              <td><?php echo $text_total_order_year; ?></td>
+              <td><?php echo $total_order_year; ?></td>
+            </tr>
+			<tr>
+              <td><?php echo $text_total_order_month; ?></td>
+              <td><?php echo $total_order_month; ?></td>
+            </tr>
+			<tr>
+              <td><?php echo $text_total_order_day; ?></td>
+              <td><?php echo $total_order_day; ?></td>
+            </tr>]]></add>
+		</operation>
+		<operation><search position="after" offset="1"><![CDATA[<td><?php echo $total_customer_approval; ?></td>]]></search>
+			<add><![CDATA[<tr>
+              <td><?php echo $text_total_customer_ban_ip; ?></td>
+              <td><?php echo $total_customer_ban_ip; ?></td>
+            </tr>
+			<tr>
+              <td><?php echo $text_total_review; ?></td>
+              <td><?php echo $total_review; ?></td>
+            </tr>]]></add>
+		</operation>
+		<operation><search position="after" offset="1"><![CDATA[<td><?php echo $total_affiliate_approval; ?></td>]]></search>
+			<add><![CDATA[
+		    <tr>
+              <td><?php echo $text_total_return; ?></td>
+              <td><?php echo $total_return; ?></td>
+            </tr>
+			<tr>
+              <td><?php echo $text_total_product; ?></td>
+              <td><?php echo $total_product; ?></td>
+            </tr>
+			]]></add>
+		</operation>
+		<operation><search position="replace"><![CDATA[<div id="report" style="width: 390px; height: 170px; margin: auto;"></div>]]></search>
+			<add><![CDATA[<div id="report" style="width: 412px; height: 420px; margin: auto"></div>]]></add>
+		</operation>
+	</file>
+	
+	<!-- Формат даты -->
+	
+	<file name="admin/controller/common/home.php">
+	    <operation error="skip">
+            <search position="after"><![CDATA[
+		'date_added' => date($this->language->get('date_format_short'), strtotime($result['date_added'])),
+            ]]></search>
+			 <add trim="true"><![CDATA[
+		'date_added_time' => date($this->language->get('date_format_short_time'), strtotime($result['date_added'])),
+            ]]></add>
+        </operation>	
+	</file>		
+	
+	<file name="admin/language/russian/russian.php">
+	    <operation error="skip">
+            <search position="after"><![CDATA[
+		$_['date_format_short']       = 'd.m.Y';
+            ]]></search>
+			<add trim="true"><![CDATA[
+		$_['date_format_short_time']       = 'j.m.Y G:i';
+            ]]></add>
+        </operation>	
+	</file>
+
+	<file name="admin/view/template/common/home.tpl">
+	    <operation>
+            <search position="replace"><![CDATA[
+		<td class="left"><?php echo $order['date_added']; ?></td>
+            ]]></search>
+		<add trim="true"><![CDATA[
+		<td class="left"><?php echo $order['date_added_time']; ?></td>
+            ]]></add>
+        </operation>	
+	</file>
+	
+	<!-- Учет оплаченых заказов -->
+	
+	    <file name="admin/model/sale/order.php">
+				<operation error="skip">
+                        <search position="replace"><![CDATA[$sql .= " WHERE order_status_id > '0'";]]>
+                        </search>
+                        <add><![CDATA[$sql .= " WHERE order_status_id NOT IN ('0', '1', '2', '7', '8', '9', '10', '11', '12', '13', '15', '16')";]]></add>
+                </operation>
+                <operation error="skip">
+                        <search position="replace"><![CDATA[$query = $this->db->query("SELECT SUM(total) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id > '0'");]]>
+                        </search>
+                        <add><![CDATA[$query = $this->db->query("SELECT SUM(total) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id NOT IN ('0', '1', '2', '7', '8', '9', '10', '11', '12', '13', '15', '16')");]]></add>
+                </operation>
+				<operation error="skip">
+                        <search position="replace"><![CDATA[$query = $this->db->query("SELECT SUM(total) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id > '0' AND YEAR(date_added) = '" . (int)$year . "'");]]>
+                        </search>
+                        <add><![CDATA[$query = $this->db->query("SELECT SUM(total) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id NOT IN ('0', '1', '2', '7', '8', '9', '10', '11', '12', '13') AND YEAR(date_added) = '" . (int)$year . "'");]]></add>
+                </operation>
+				<operation error="skip">
+                        <search position="replace"><![CDATA[$query = $this->db->query("SELECT SUM(total) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id > '0' AND MONTH(date_added) = MONTH(NOW()) AND YEAR(date_added) = YEAR(NOW())");]]>
+                        </search>
+                        <add><![CDATA[$query = $this->db->query("SELECT SUM(total) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id NOT IN ('0', '1', '2', '7', '8', '9', '10', '11', '12', '13') AND MONTH(date_added) = MONTH(NOW()) AND YEAR(date_added) = YEAR(NOW())");]]></add>
+                </operation>
+				<operation error="skip">
+                        <search position="replace"><![CDATA[$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id > '0' AND YEAR(date_added) = YEAR(NOW()) AND YEAR(date_added) = YEAR(NOW())");]]>
+                        </search>
+                        <add><![CDATA[$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id NOT IN ('0', '7', '8', '9', '10', '11', '13') AND YEAR(date_added) = YEAR(NOW()) AND YEAR(date_added) = YEAR(NOW())");]]></add>
+                </operation>
+        </file>
+
+</modification>
